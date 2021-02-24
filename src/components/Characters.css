@@ -1,0 +1,20 @@
+.element {
+  width: fit-content;
+  color: black;
+  text-decoration: none;
+  margin: auto;
+  margin-bottom: 100px;
+}
+
+.element::after {
+  content: '';
+  width: 0;
+  height: 1px;
+  display: block;
+  transition-duration: .5s;
+  background-color: black;
+}
+
+.element:hover::after {
+  width: 100%;
+}
