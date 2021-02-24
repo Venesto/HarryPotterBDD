@@ -20,6 +20,7 @@ class Form extends Component {
         <p>Email: {this.state.Email}</p>
         <input name="FirstName" type="text" onChange={this.handleChange} />
         <input name="Email" type="email" onChange={this.handleChange} />
+        <input type="button" value="Submit"/>
       </div>
     );
   }
